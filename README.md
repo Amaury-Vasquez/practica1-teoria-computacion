@@ -15,10 +15,12 @@ para cada estado, en ese orden, imaginemos el AFD que recibe todas las cadenas q
 la tabla de transicion seria la siguiente:
 
 <center>
-| Estado |  1  |  0  |
-|--------|-----|-----|
+
+| Estado | 1   | 0   |
+| ------ | --- | --- |
 | q0     | q1  | q1  |
 | q1     | q1  | q1  |
+
 </center>
 
 Para este AFD, el archivo que define la tabla de transicion deberia de ser como el de este ejemplo:
