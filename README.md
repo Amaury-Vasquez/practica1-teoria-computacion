@@ -14,19 +14,16 @@ En las siguientes lineas se leen el estado donde se encuentra, y las transicione
 para cada estado, en ese orden, imaginemos el AFD que recibe todas las cadenas que contienen un 1 o un 0,
 la tabla de transicion seria la siguiente:
 
-<center>
-
 | Estado | 1   | 0   |
 | ------ | --- | --- |
 | q0     | q1  | q1  |
 | q1     | q1  | q1  |
 
-</center>
-
 Para este AFD, el archivo que define la tabla de transicion deberia de ser como el de este ejemplo:
 
 ```
   1 0 // Abecedario del AFD
+  1 // Numero de el/los estados de aceptacion
   0 1 1 // Estado inicial // Transicion // Transicion
   1 1 1 // Estado inicial // Transicion // Transicion
 ```

@@ -12,5 +12,5 @@ def read_file():
 
 if __name__ == '__main__':
   lines = read_file()
-  first_line = lines[0].split()
-  print_lines(first_line)
+  # first_line = lines[0].split()
+  print_lines(lines)
